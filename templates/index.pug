@@ -1,0 +1,8 @@
+extends layout.pug
+block content
+  h2 Index Page
+  p #{id}
+  ul
+    each val in ['a','b','c','d']
+      li= 'Hello ' + val
+
